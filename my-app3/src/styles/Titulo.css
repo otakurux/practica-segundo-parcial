@@ -1,0 +1,20 @@
+.titulo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Ajusta la altura según sea necesario */
+}
+
+.titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .titulo-container {
+        margin: 20px;
+        height: auto;
+        width: auto;
+    }
+}

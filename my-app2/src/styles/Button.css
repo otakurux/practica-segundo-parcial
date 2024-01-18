@@ -1,0 +1,40 @@
+:root {
+    --fuente: Roboto, sans-serif;
+
+    --black: #000;
+    --whith: #ffffff;
+    --light-blue: #475879;
+
+    --md: 24px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.button {
+    width: 150px;
+    height: 80px;
+    font-family: var(--fuente);
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: var(--md);
+    background-color: var(--light-blue);
+    color: var(--whith);
+}
+
+.button:hover {
+    background-color: var(--whith);
+    color: var(--light-blue);
+}
+
+@media only screen and (max-width: 600px) {
+    .button-container {
+        height: auto;
+        /* Ajusta la altura según sea necesario para dispositivos móviles */
+    }
+}

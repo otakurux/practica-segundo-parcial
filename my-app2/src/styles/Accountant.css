@@ -1,0 +1,19 @@
+:root{
+    --white: #DCDCE5;
+    --oranch: #FF872C;
+
+    --mg: 50px;
+}
+
+.accountant-text {
+    min-width: 300px;
+    height: auto;
+    font-size: var(--mg);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+    color: var(--oranch);
+    align-items: center;
+    margin-bottom: 10px;
+}
